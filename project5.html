@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Stock Mapping</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            padding-top: 10px; /* Space for the fixed navbar */
+            background-color: #fdf8e8; /* Light gray background color */
+            font-family: Arial, sans-serif;
+        }
+        .section {
+            padding: 60px 0; /* Add some padding to the sections */
+        }
+        .navbar-dark .navbar-nav .nav-link {
+            color: rgba(95, 22, 22, 0.75);
+        }
+        .navbar-dark .navbar-nav .nav-link:hover,
+        .navbar-dark .navbar-nav .nav-link:focus {
+            color: #797474;
+        }
+        .navbar {
+            box-shadow: 0 2px 4px rgba(187, 10, 10, 0.1); /* Adds a subtle shadow for better visibility */
+        }
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.25rem;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .project-detail-section {
+            padding: 100px 0;
+            color: #333;
+        }
+        .project-detail-section h1 {
+            font-size: 48px;
+            margin-bottom: 40px;
+            font-weight: bold;
+        }
+        .project-detail-section img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 30px;
+        }
+        .project-detail-section p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Lorna Makena</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="project-detail-section">
+        <div class="container">
+            <h1>Stock Mapping</h1>
+            <img src="images/project/5.PNG" alt="Project 1 Image" class="img-fluid">
+
+            <h2>Summary</h2>
+            <p>Stock mapping is a data visualization tool used to identify “who has what, where” in terms of emergency supplies. It helps humanitarian agencies coordinate logistics, avoid duplication, and respond more efficiently to crises.</p>
+            <p>Stock mapping dashboards typically include:</p>
+            <ul>
+                    <li>Interactive maps showing warehouse locations and stockpile contents</li>
+                    <li>Filters by:
+                        <ul>
+                            <li>Item type (e.g., tents, hygiene kits, medical supplies)</li>
+                            <li>Organization</li>
+                            <li>Region or country</li>
+                            <li>Sector (e.g., health, shelter, WASH)</li>
+                        </ul>
+                    </li>
+                    <li>Tables and charts summarizing:
+                        <ul>
+                            <li>Quantities of items available</li>
+                            <li>Stock movement (in/out)</li>
+                            <li>Replenishment schedules</li>
+                        </ul>
+                    </li>
+                    <li>Icons and infographics for quick visual reference</li>
+                    <li>Links to logistics partners and transport options</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Include Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
